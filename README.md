@@ -6,7 +6,7 @@
 
 <p align="center">
   <p align="center">
-   Lightweight and powerfull framework to jumpstart your projects (node.js)
+   Lightweight and powerfull framework to jumpstart your <a href="http://web.whatsapp.com/" target="blank">Whatsapp</a> applications (node.js)
     <br/>
     <br/>
   </p>
@@ -23,16 +23,32 @@
 
 ## Description
 
-If you want an easy start on getting commands on your app. This project comes in with many built-in features, this is the only framework you will need. I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue.
+Playwa is a open source project and a excellent way, if you want an easy start on getting commands and interactions. Perfect for building efficient and scalable [Whatsapp](https://web.whatsapp.com) applications.
 
-[Playwa](https://github.com/playwa/playwa) is an extension of [Baileys](https://github.com/adiwajshing/Baileys) and based on [Nestjs](https://github.com/orgs/nestjs). But also, provides compatibility with a wide range of other libraries, allowing for easy use of third-party plugins which are avaliable.
+Built with [TypeScript](http://www.typescriptlang.org/) and based on [@nestjs](https://github.com/nestjs/nest) framework. Playwa makes use of **websocket** under the hood, saving like half a gig of ram. Also, provides compatibility with a wide range of other libraries and many built-in features, allowing for easy use of third-party plugins which are avaliable.
 
-## Issues
+## Example
+Please check [@playwa/example](https://github.com/playwa/example) to see an example usage.
 
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-* If you have suggestions for adding or removing projects, feel free to [open an issue](https://github.com/playwa/playwa/issues/new) to discuss it, or directly create a pull request after you edit the `code` with necessary changes.
-* Please make sure you check your spelling and grammar.
-* Create individual PR for each suggestion.
+## Contributing
+
+Want to contribute? Great!
+
+To fix a bug or enhance an existing module, follow these steps:
+
+* Fork the repo
+* Create a new branch (`git checkout -b improve-feature`)
+* Make the appropriate changes in the files
+* Add changes to reflect the changes made
+* Commit your changes (`git commit -am 'Improve feature'`)
+* Push to the branch (`git push origin improve-feature`)
+* Create a Pull Request
+
+### Code of Conduct
+Help us keep Playwa open and inclusive. Please read and follow our [Code of Conduct](https://github.com/playwa/playwa/blob/main/CODE_OF_CONDUCT.md).
+
+## Acknowledgments
+Special thanks to [@mrdiniz88](https://github.com/mrdiniz88) for code review and improvements.
 
 ## Stay in touch
 
