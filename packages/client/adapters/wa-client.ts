@@ -100,15 +100,18 @@ export class WAClient extends AbstractWAClient {
     this.socket.ev.on(WAEvent.CREDS_UPDATE, saveCreds)
   }
 
-  listenCommands(...commands: any[]) {
-    const collection = new Map<string, ICommand>(...commands);
+  listenCommands(
+    commands: Map<string, ICommand>,
+    buttons: Map<string, ICommand>
+  ) {
+    const collection = new Map<string, ICommand>([...commands, ...buttons]);
 
     this.socket.ev.on(WAEvent.MESSAGES_UPSERT, async ({ messages }) => {
       const msg = messages[0];
 
       const content = 
-        this.messageFactory.getMessageContent(msg) ||
-        msg.message?.templateButtonReplyMessage?.selectedId;
+        msg.message?.templateButtonReplyMessage?.selectedId ||
+        this.messageFactory.getMessageContent(msg)
         
       const interaction = this.responseController.getInteraction(
         content,
