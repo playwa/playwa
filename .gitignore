@@ -13,6 +13,13 @@ logs
 results
 tmp
 
+# packages
+packages/**/*.d.ts
+packages/**/*.js
+
+# build
+*.tsbuildinfo
+
 # Npm
 .npmrc
 

@@ -11,6 +11,9 @@
   "publishConfig": {
     "access": "public"
   },
+  "dependencies": {
+    "tslib": "2.4.1"
+  },
   "peerDependencies": {
     "reflect-metadata": "^0.1.12"
   },
