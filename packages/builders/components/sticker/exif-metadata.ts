@@ -1,4 +1,4 @@
-import { IWAStickerOptions } from "@playwa/builders";
+import { IWAStickerOptions } from "@playwajs/builders";
 
 export class ExifMetadata {
   'sticker-pack-id': string;

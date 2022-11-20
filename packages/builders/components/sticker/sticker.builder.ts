@@ -4,7 +4,7 @@ import {
 } from "@adiwajshing/baileys";
 
 import { ExifFactory } from "./exif-factory";
-import { IWAStickerOptions } from "@playwa/builders";
+import { IWAStickerOptions } from "@playwajs/builders";
 
 export class StickerBuilder {
   private data: DownloadableMessage;

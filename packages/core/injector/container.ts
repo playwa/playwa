@@ -3,9 +3,9 @@ import {
   ICommand,
   IController,
   IProvider
-} from '@playwa/common';
+} from '@playwajs/common';
 
-import { WAClient } from '@playwa/platform-socket';
+import { WAClient } from '@playwajs/platform-socket';
 
 import { Module } from './module';
 import { ModulesContainer } from './modules-container';

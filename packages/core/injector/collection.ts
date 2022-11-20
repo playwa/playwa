@@ -1,4 +1,4 @@
-import { ICommand } from "@playwa/common";
+import { ICommand } from "@playwajs/common";
 
 export class CollectionContainer {
   private readonly _events = new Map<string, ICommand>();

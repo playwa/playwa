@@ -4,7 +4,7 @@ import { Image } from 'node-webpmux';
 import { TextEncoder } from "util";
 
 import { ExifMetadata } from "./exif-metadata";
-import { IWAStickerOptions } from "@playwa/builders/interfaces";
+import { IWAStickerOptions } from "@playwajs/builders/interfaces";
 
 
 export class ExifFactory {

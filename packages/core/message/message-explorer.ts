@@ -10,9 +10,9 @@ import {
   isString,
   InteractionType,
   mergeKeysAndValues
-} from '@playwa/common';
+} from '@playwajs/common';
 
-import { WAClient } from '@playwa/platform-socket';
+import { WAClient } from '@playwajs/platform-socket';
 
 import { WAContainer } from '../injector/container';
 import { MetadataScanner } from '../scanner/metadata-scanner';

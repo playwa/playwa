@@ -1,7 +1,7 @@
 import 'reflect-metadata';
 
-import { WAEvent } from '@playwa/common';
-import { InteractionType } from '@playwa/common/enums/interaction-type.enum';
+import { WAEvent } from '@playwajs/common';
+import { InteractionType } from '@playwajs/common/enums/interaction-type.enum';
 
 import { 
   COMMAND_METADATA,

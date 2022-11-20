@@ -1,5 +1,5 @@
 import { WAMessage } from '@adiwajshing/baileys';
-import { mergeKeysAndValues, WAParamTypes } from '@playwa/common';
+import { mergeKeysAndValues, WAParamTypes } from '@playwajs/common';
 import { createCommandRegex, MESSAGE_REGEX } from '../helpers';
 
 export class MessageFactory {

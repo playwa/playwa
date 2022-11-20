@@ -2,7 +2,7 @@ import {
   LoggerService,
   WAOptions,
   IWAApplication 
-} from '@playwa/common';
+} from '@playwajsjs/common';
 
 import { WAClient } from '../platform-socket';
 

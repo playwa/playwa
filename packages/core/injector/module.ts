@@ -1,7 +1,7 @@
 import { 
   IProvider, 
   IController 
-} from '@playwa/common';
+} from '@playwajs/common';
 
 export class Module {
   private readonly _imports = new Set<Module>();

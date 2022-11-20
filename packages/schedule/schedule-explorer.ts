@@ -2,9 +2,9 @@ import {
   Injectable, 
   OnModuleInit, 
   Type
-} from "@playwa/common";
+} from "@playwajs/common";
 
-import { MetadataScanner, WAContainer } from "@playwa/core";
+import { MetadataScanner, WAContainer } from "@playwajs/core";
 
 import { flatten } from "./utils";
 import { CRON_OPTIONS } from "./constants";

@@ -3,7 +3,7 @@ import {
   InstanceOptions,
   PARAMTYPES_METADATA,
   LoggerService,
-} from '@playwa/common';
+} from '@playwajs/common';
 
 import { Module } from './module';
 import { WAContainer } from './container';

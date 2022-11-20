@@ -3,7 +3,7 @@ import {
   isFunction, 
   Type, 
   WA_SOCKET_METADATA 
-} from '@playwa/common';
+} from '@playwajs/common';
 
 export class MetadataScanner {
   public scanMethods<R = any>(

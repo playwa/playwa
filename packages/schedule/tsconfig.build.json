@@ -4,10 +4,10 @@
     "outDir": ".",
     "rootDir": ".",
     "paths": {
-      "@playwa/common": ["../common"],
-      "@playwa/common/*": ["../common/*"],
-      "@playwa/core": ["../core"],
-      "@playwa/core/*": ["../core/*"],
+      "@playwajs/common": ["../common"],
+      "@playwajs/common/*": ["../common/*"],
+      "@playwajs/core": ["../core"],
+      "@playwajs/core/*": ["../core/*"],
     }
   },
   "exclude": ["node_modules", "dist"],

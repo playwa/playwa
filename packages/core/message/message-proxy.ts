@@ -8,9 +8,9 @@ import {
   MESSAGE_ARGS_METADATA,
   PARAMTYPES_METADATA,
   Type 
-} from "@playwa/common";
+} from "@playwajs/common";
 
-import { ComponentBuilder } from "@playwa/builders";
+import { ComponentBuilder } from "@playwajs/builders";
 import { MessageFactory } from "./message-factory";
 
 export class MessageProxy {

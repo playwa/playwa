@@ -5,7 +5,7 @@ import {
   Injectable,
   OnBootstrap,
   Type
-} from "@playwa/common";
+} from "@playwajs/common";
 
 @Injectable()
 export class ScheduleService implements OnBootstrap {

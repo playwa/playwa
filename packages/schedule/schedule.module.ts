@@ -1,4 +1,4 @@
-import { Module } from "@playwa/common";
+import { Module } from "@playwajs/common";
 
 import { ScheduleService } from "./schedule.service";
 import { ScheduleExplorer } from "./schedule-explorer";

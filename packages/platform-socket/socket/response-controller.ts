@@ -3,12 +3,12 @@ import {
   WASocket 
 } from "@adiwajshing/baileys";
 
-import { ICommand, isFunction } from '@playwa/common';
+import { ICommand, isFunction } from '@playwajs/common';
 
 import { 
   MessageFactory, 
   MessageProxy 
-} from '@playwa/core';
+} from '@playwajs/core';
 
 export const hasToJsonMethod = (instance: any) => {
   return isFunction(instance.toJSON);

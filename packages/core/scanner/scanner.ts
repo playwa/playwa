@@ -1,6 +1,6 @@
 import 'reflect-metadata'
 
-import { MODULE_METADATA } from '@playwa/common';
+import { MODULE_METADATA } from '@playwajs/common';
 
 import { 
   Module, 

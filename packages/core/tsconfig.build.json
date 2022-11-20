@@ -4,10 +4,10 @@
     "outDir": ".",
     "rootDir": ".",
     "paths": {
-      "@playwa/common": ["../common"],
-      "@playwa/common/*": ["../common/*"],
-      "@playwa/platform-socket": ["../platform-socket"],
-      "@playwa/platform-socket/*": ["../platform-socket/*"]
+      "@playwajs/common": ["../common"],
+      "@playwajs/common/*": ["../common/*"],
+      "@playwajs/platform-socket": ["../platform-socket"],
+      "@playwajs/platform-socket/*": ["../platform-socket/*"]
     }
   },
   "exclude": ["node_modules", "dist", "test/**/*", "*.spec.ts"],

@@ -1,4 +1,4 @@
-import { WA_SOCKET_METADATA } from "@playwa/common"
+import { WA_SOCKET_METADATA } from "@playwajs/common"
 
 export const WebSocket = (): PropertyDecorator => {
   return (target, key) => {

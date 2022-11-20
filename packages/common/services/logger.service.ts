@@ -1,4 +1,4 @@
-import { colors } from '@playwa/common';
+import { colors } from '@playwajs/common';
 
 export class LoggerService {
   context: string;
@@ -29,7 +29,7 @@ export class LoggerService {
   }
 
   protected getPid() {
-    return colors.green(`[@playwa] ${process.pid}  - `);
+    return colors.green(`[@playwajs] ${process.pid}  - `);
   }
 
   protected getTimestamp() {

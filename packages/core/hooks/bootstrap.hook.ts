@@ -1,4 +1,4 @@
-import { isFunction } from "@playwa/common";
+import { isFunction } from "@playwajs/common";
 import { Module } from "../injector";
 
 export const hasBootstrapHook = (instance: any) => {

@@ -1,5 +1,5 @@
 {
-  "name": "@playwa/common",
+  "name": "@playwajs/common",
   "version": "1.0.0",
   "description": "Lightweight and powerfull framework (@common)",
   "author": "Natan Rodrigues",
@@ -10,5 +10,5 @@
   "peerDependencies": {
     "reflect-metadata": "^0.1.12"
   },
-  "gitHead": "f7181691f491f2678e0a1f19dfd9c693a4977309"
+  "gitHead": "f24debef58f51b07549229a29df3e44e68f626ab"
 }

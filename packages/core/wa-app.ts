@@ -4,10 +4,10 @@ import {
   MessageExplorer,
   callModuleBootstrapHook,
   callModuleInitHook
-} from '@playwa/core';
+} from '@playwajs/core';
 
-import { LoggerService } from '@playwa/common';
-import { WAClient } from '@playwa/platform-socket';
+import { LoggerService } from '@playwajs/common';
+import { WAClient } from '@playwajs/platform-socket';
 
 export class WAApplication {
   private socketRef: WAClient;

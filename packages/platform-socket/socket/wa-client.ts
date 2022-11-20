@@ -12,13 +12,13 @@ import {
   LogLevels,
   ICommand,
   WAConnectionState,
-} from '@playwa/common';
+} from '@playwajs/common';
 
 import {
   MessageFactory,
   WAContainer,
   MessageProxy
-} from '@playwa/core';
+} from '@playwajs/core';
 
 import { Boom } from '@hapi/boom';
 import { ResponseController } from './response-controller';

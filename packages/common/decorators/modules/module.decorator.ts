@@ -1,5 +1,5 @@
 import 'reflect-metadata'
-import { IModuleMetaData } from '@playwa/common';
+import { IModuleMetaData } from '@playwajs/common';
 
 export function Module(moduleMetaData: IModuleMetaData) {
   return (target: Function) => {

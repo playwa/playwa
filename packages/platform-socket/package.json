@@ -1,5 +1,5 @@
 {
-  "name": "@playwa/platform-socket",
+  "name": "@playwajs/platform-socket",
   "version": "1.0.0",
   "description": "Lightweight and powerfull framework (@platform-socket)",
   "author": "Natan Rodrigues",
@@ -13,8 +13,8 @@
     "@hapi/boom": "^10.0.0"
   },
   "peerDependencies": {
-    "@playwa/common": "^1.0.0",
-    "@playwa/core": "^1.0.0"
+    "@playwajs/common": "^1.0.0",
+    "@playwajs/core": "^1.0.0"
   },
-  "gitHead": "f7181691f491f2678e0a1f19dfd9c693a4977309"
+  "gitHead": "f24debef58f51b07549229a29df3e44e68f626ab"
 }
