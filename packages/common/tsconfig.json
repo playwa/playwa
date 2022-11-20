@@ -1,13 +1,11 @@
 {
-  "extends": "../tsconfig.build.json",
+  "extends": "./tsconfig.build.json",
   "compilerOptions": {
-    "types": ["node"]
+    "types": ["node"],
+    "outDir": ".",
+    "rootDir": ".",
+    "paths": {}
   },
   "files": [],
   "include": [],
-  "references": [
-    {
-      "path": "./tsconfig.build.json"
-    }
-  ]
 }

@@ -34,6 +34,6 @@
       "@playwajs/schedule/*": ["./packages/schedule/*"],
     },
   },
-  "include": ["sample", "packages/**/*"],
+  "include": ["packages/**/*"],
   "exclude": ["node_modules"],
 }
