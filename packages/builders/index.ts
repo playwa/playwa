@@ -1,3 +1,3 @@
 export * from './components';
 export * from './interfaces';
-export * from './message';
+export * from './text';
