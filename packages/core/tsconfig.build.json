@@ -1,16 +1,18 @@
 {
-  "extends": "../common/tsconfig.build.json",
+  "extends": "../tsconfig.build.json",
   "compilerOptions": {
     "outDir": ".",
     "rootDir": ".",
     "paths": {
       "@playwajs/common": ["../common"],
       "@playwajs/common/*": ["../common/*"],
-      "@playwajs/platform-socket": ["../platform-socket"],
-      "@playwajs/platform-socket/*": ["../platform-socket/*"]
+      "@playwajs/core": ["../core"],
+      "@playwajs/core/*": ["../core/*"],
+      "@playwajs/client": ["../client"],
+      "@playwajs/client/*": ["../client/*"]
     }
   },
-  "exclude": ["node_modules", "dist", "test/**/*", "*.spec.ts"],
+  "exclude": ["node_modules", "dist"],
   "references": [
     {
       "path": "../common/tsconfig.build.json"

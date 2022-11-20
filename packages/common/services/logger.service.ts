@@ -1,4 +1,4 @@
-import { colors } from '@playwajs/common';
+import { colors } from '@playwajs/common/utils';
 
 export class LoggerService {
   context: string;

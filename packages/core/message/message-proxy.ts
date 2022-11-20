@@ -10,7 +10,6 @@ import {
   Type 
 } from "@playwajs/common";
 
-import { ComponentBuilder } from "@playwajs/builders";
 import { MessageFactory } from "./message-factory";
 
 export class MessageProxy {

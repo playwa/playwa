@@ -47,7 +47,7 @@ To fix a bug or enhance an existing module, follow these steps:
 Help us keep **Playwa** open and inclusive. Please read and follow our [Code of Conduct](https://github.com/playwa/playwa/blob/main/CODE_OF_CONDUCT.md).
 
 ## Acknowledgments
-Special thanks to [@mrdiniz88](https://github.com/mrdiniz88) for code review and improvements.
+Special thanks to [@mrdiniz88](https://github.com/mrdiniz88) for inspiration.
 
 ## Stay in touch
 

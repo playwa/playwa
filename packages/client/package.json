@@ -1,9 +1,13 @@
 {
-  "name": "@playwajs/platform-socket",
+  "name": "@playwajs/client",
   "version": "1.0.2",
-  "description": "Lightweight and powerfull framework (@platform-socket)",
+  "description": "Lightweight and powerfull framework (@client)",
   "author": "Natan Rodrigues",
   "license": "GPL3",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/playwa/playwa"
+  },
   "publishConfig": {
     "access": "public"
   },

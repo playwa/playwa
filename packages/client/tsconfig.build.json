@@ -1,5 +1,5 @@
 {
-  "extends": "../common/tsconfig.build.json",
+  "extends": "../tsconfig.build.json",
   "compilerOptions": {
     "outDir": ".",
     "rootDir": ".",
@@ -10,10 +10,13 @@
       "@playwajs/core/*": ["../core/*"],
     }
   },
-  "exclude": ["node_modules", "dist"],
+  "exclude": [
+    "node_modules", 
+    "dist"
+  ],
   "references": [
     {
-      "path": "../common/tsconfig.build.json"
+      "path": "../common/tsconfig.build.json",
     },
     {
       "path": "../core/tsconfig.build.json"

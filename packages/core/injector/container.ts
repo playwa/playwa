@@ -5,14 +5,13 @@ import {
   IProvider
 } from '@playwajs/common';
 
-import { WAClient } from '@playwajs/platform-socket';
-
 import { Module } from './module';
 import { ModulesContainer } from './modules-container';
 import { CollectionContainer } from './collection';
+import { AbstractWAClient } from '../adapters';
 
 export class WAContainer {
-  private baileysSocket: WAClient;
+  private baileysSocket: AbstractWAClient;
 
   private modules = new ModulesContainer();
   private collection = new CollectionContainer();

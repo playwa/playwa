@@ -3,14 +3,14 @@ import {
   WAContainer,
   MessageExplorer,
   callModuleBootstrapHook,
-  callModuleInitHook
+  callModuleInitHook,
+  AbstractWAClient
 } from '@playwajs/core';
 
 import { LoggerService } from '@playwajs/common';
-import { WAClient } from '@playwajs/platform-socket';
 
 export class WAApplication {
-  private socketRef: WAClient;
+  private socketRef: AbstractWAClient;
   private messageExplorer: MessageExplorer;
   private readonly logger = new LoggerService(WAApplication.name);
 

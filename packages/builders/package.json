@@ -2,9 +2,12 @@
   "name": "@playwajs/builders",
   "version": "1.0.2",
   "description": "Lightweight and powerfull framework (@builders)",
-  "keywords": [],
   "author": "Natan Rodrigues",
   "license": "GPL3",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/playwa/playwa"
+  },
   "publishConfig": {
     "access": "public"
   },

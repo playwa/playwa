@@ -4,6 +4,10 @@
   "description": "Lightweight and powerfull framework (@common)",
   "author": "Natan Rodrigues",
   "license": "GPL3",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/playwa/playwa"
+  },
   "publishConfig": {
     "access": "public"
   },

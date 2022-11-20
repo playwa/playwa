@@ -1,4 +1,9 @@
-import { MessageUpsertType, WAMessage, WASocket } from '@adiwajshing/baileys';
+import { 
+  MessageUpsertType, 
+  WAMessage, 
+  WASocket 
+} from '@adiwajshing/baileys';
+
 import { WAEvent } from '../enums';
 
 interface IMessagesUpsertEvent {

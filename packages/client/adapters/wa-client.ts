@@ -17,13 +17,14 @@ import {
 import {
   MessageFactory,
   WAContainer,
-  MessageProxy
+  MessageProxy,
+  ResponseController,
+  AbstractWAClient
 } from '@playwajs/core';
 
 import { Boom } from '@hapi/boom';
-import { ResponseController } from './response-controller';
 
-export class WAClient {
+export class WAClient extends AbstractWAClient {
   socket: WASocket;
   options: WAOptions;
   
@@ -35,6 +36,8 @@ export class WAClient {
     options: WAOptions,
     private readonly container: WAContainer,
   ) {
+    super();
+
     this.options = options;
 
     this.messageFactory = new MessageFactory();
@@ -116,8 +119,8 @@ export class WAClient {
         return;
       }
 
-      const handler = this.messageProxy.createProxy(interaction);
-      const result = await handler(msg);
+      const fnHandler = this.messageProxy.createProxy(interaction);
+      const result = await fnHandler(msg);
 
       if (result) {
         this.responseController.reply(

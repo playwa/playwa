@@ -23,9 +23,9 @@
 
 ## Description
 
-Playwa is a open source project and a excellent way, if you want an easy start on getting commands and interactions. Perfect for building efficient and scalable [Whatsapp](https://web.whatsapp.com) applications.
+Playwa is a open source project and a excellent way, if you want an easy start on getting commands and interactions. Perfect for building efficient and scalable [Whatsapp](https://web.whatsapp.com) applications (Node.js).
 
-Built with [TypeScript](http://www.typescriptlang.org/) and based on [@nestjs](https://github.com/nestjs/nest) framework. Playwa makes use of **websocket** under the hood, saving like half a gig of ram. Also, provides compatibility with a wide range of other libraries and many built-in features, allowing for easy use of third-party plugins which are avaliable.
+Built with [TypeScript](http://www.typescriptlang.org/) and based on [@nestjs](https://github.com/nestjs/nest) framework. Under the hood, playwa directly uses **websocket**, saving like half a gig of ram. Also, provides compatibility with a wide range of other libraries and many built-in features, allowing for easy use of third-party plugins which are avaliable.
 
 ## Example
 Please check [@playwa/example](https://github.com/playwa/example) to see an example usage.
@@ -44,10 +44,10 @@ To fix a bug or enhance an existing module, follow these steps:
 * Push to the branch (`git push origin improve-feature`)
 * Create a Pull Request
 
-Help us keep **Playwa** open and inclusive. Please read and follow our [Code of Conduct](https://github.com/playwa/playwa/blob/main/CODE_OF_CONDUCT.md).
+Help us keep **playwa** open and inclusive. Please read and follow our [Code of Conduct](https://github.com/playwa/playwa/blob/main/CODE_OF_CONDUCT.md).
 
 ## Acknowledgments
-Special thanks to [@mrdiniz88](https://github.com/mrdiniz88) for code review and improvements.
+Special thanks to [@mrdiniz88](https://github.com/mrdiniz88) for inspiration.
 
 ## Stay in touch
 

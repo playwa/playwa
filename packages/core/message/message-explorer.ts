@@ -1,4 +1,5 @@
 import 'reflect-metadata';
+import { WASocket } from '@adiwajshing/baileys';
 
 import {
   Type,
@@ -7,24 +8,20 @@ import {
   COMMAND_METADATA,
   TYPE_METADATA,
   LoggerService,
-  isString,
-  InteractionType,
-  mergeKeysAndValues
+  InteractionType
 } from '@playwajs/common';
-
-import { WAClient } from '@playwajs/platform-socket';
 
 import { WAContainer } from '../injector/container';
 import { MetadataScanner } from '../scanner/metadata-scanner';
 import { MAPPED_COMMAND_MESSAGE } from '../helpers/messages.helper';
 
-import { WASocket } from '@adiwajshing/baileys';
 import { MessageFactory } from './message-factory';
+import { AbstractWAClient } from '../adapters';
 
 export class MessageExplorer {
   private logger = new LoggerService(MessageExplorer.name);
 
-  private socketRef: WAClient;
+  private socketRef: AbstractWAClient;
   private messageFactory: MessageFactory;
   private metadataScanner: MetadataScanner;
 

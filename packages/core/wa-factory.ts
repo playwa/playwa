@@ -2,16 +2,18 @@ import {
   LoggerService,
   WAOptions,
   IWAApplication 
-} from '@playwajsjs/common';
+} from '@playwajs/common';
 
-import { WAClient } from '../platform-socket';
+import { 
+  Injector, 
+  WAContainer 
+} from './injector';
 
-import { Injector } from './injector';
-import { WAContainer } from './injector/container';
+import { loadAdapter, MESSAGES } from './helpers';
 import { WAApplication } from './wa-app';
-import { DependenciesScanner } from './scanner/scanner';
+import { DependenciesScanner } from './scanner';
+import { AbstractWAClient } from './adapters';
 
-import { MESSAGES } from './helpers/messages.helper';
 
 export class WADefaultFactory {
   private readonly logger = new LoggerService('WAFactory');
@@ -39,7 +41,7 @@ export class WADefaultFactory {
   async initialize(
     module: any,
     container: WAContainer,
-    socket: WAClient,
+    socket: AbstractWAClient,
   ) {
     const injector = new Injector(container);
     const dependencieScanner = new DependenciesScanner(container);
@@ -62,6 +64,7 @@ export class WADefaultFactory {
     appOptions: WAOptions,
     container: WAContainer,
   ) {
+    const { WAClient } = loadAdapter(() => require('@playwajs/client'));
     return new WAClient(appOptions, container) 
   }
 

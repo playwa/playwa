@@ -1,5 +1,5 @@
 {
-  "extends": "../common/tsconfig.build.json",
+  "extends": "../tsconfig.build.json",
   "compilerOptions": {
     "outDir": ".",
     "rootDir": ".",
@@ -7,7 +7,7 @@
       "@playwajs/common": ["../common"],
       "@playwajs/common/*": ["../common/*"],
       "@playwajs/builders": ["../builders"],
-      "@playwajs/builders/*": ["../core/*"],
+      "@playwajs/builders/*": ["../builders/*"]
     }
   },
   "exclude": ["node_modules", "dist"],
