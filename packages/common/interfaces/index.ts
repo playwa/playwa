@@ -6,4 +6,3 @@ export * from './wa';
 export * from './hooks';
 export * from './modules';
 export * from './message';
-export * from './websockets';
