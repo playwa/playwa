@@ -1,6 +1,6 @@
 {
   "name": "@playwajs/core",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Lightweight and powerfull framework (@core)",
   "author": "Natan Rodrigues",
   "license": "GPL3",
@@ -8,7 +8,7 @@
     "access": "public"
   },
   "devDependencies": {
-    "@playwajs/common": "^1.0.0"
+    "@playwajs/common": "^1.0.1"
   },
   "peerDependencies": {
     "@playwajs/common": "1.0.0",
