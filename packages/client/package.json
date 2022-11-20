@@ -19,8 +19,8 @@
     "tslib": "2.4.1"
   },
   "peerDependencies": {
-    "@playwajs/common": "^1.0.0",
-    "@playwajs/core": "^1.0.0"
+    "@playwajs/common": "^1.1.0",
+    "@playwajs/core": "^1.1.0"
   },
   "gitHead": "f24debef58f51b07549229a29df3e44e68f626ab"
 }

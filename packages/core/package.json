@@ -18,8 +18,8 @@
     "@playwajs/common": "^1.1.0"
   },
   "peerDependencies": {
-    "@playwajs/client": "1.0.0",
-    "@playwajs/common": "1.0.0",
+    "@playwajs/client": "1.1.0",
+    "@playwajs/common": "1.1.0",
     "reflect-metadata": "^0.1.13"
   },
   "gitHead": "f24debef58f51b07549229a29df3e44e68f626ab"
