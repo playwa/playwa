@@ -1,4 +1,4 @@
-import sharp from 'sharp';
+import * as sharp from 'sharp';
 
 import { Image } from 'node-webpmux';
 import { TextEncoder } from "util";
