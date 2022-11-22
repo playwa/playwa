@@ -6,9 +6,9 @@ import {
 } from '@playwajs/common';
 
 import { Module } from './module';
+import { AbstractWAClient } from '../adapters';
 import { ModulesContainer } from './modules-container';
 import { CollectionContainer } from './collection';
-import { AbstractWAClient } from '../adapters';
 
 export class WAContainer {
   private baileysSocket: AbstractWAClient;

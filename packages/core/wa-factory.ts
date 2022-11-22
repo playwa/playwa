@@ -9,11 +9,14 @@ import {
   WAContainer 
 } from './injector';
 
-import { loadAdapter, MESSAGES } from './helpers';
-import { WAApplication } from './wa-app';
-import { DependenciesScanner } from './scanner';
-import { AbstractWAClient } from './adapters';
+import { 
+  loadClient, 
+  MESSAGES 
+} from './helpers';
 
+import { WAApplication } from './wa-app';
+import { AbstractWAClient } from './adapters';
+import { DependenciesScanner } from './scanner';
 
 export class WADefaultFactory {
   private readonly logger = new LoggerService('WAFactory');
@@ -64,7 +67,7 @@ export class WADefaultFactory {
     appOptions: WAOptions,
     container: WAContainer,
   ) {
-    const { WAClient } = loadAdapter(() => require('@playwajs/client'));
+    const { WAClient } = loadClient(() => require('@playwajs/client'));
     return new WAClient(appOptions, container) 
   }
 
