@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="http://nestjs.com/" target="blank">
+  <a href="https://github.com/playwa/playwa" target="blank">
     <img src="https://avatars.githubusercontent.com/u/118643349" width="120" alt="Logo" />
   </a>
 </p>
